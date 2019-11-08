@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity"
+    android:background="@drawable/secondd">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:src="@drawable/kiitlogo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO KIIT NOTES"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#0FF"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/login1"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textColorHint="#0FF"
+
+        android:hint="ENTER ROLL NO."
+        android:textStyle="bold"
+        android:textColor="#FF0"
+        android:importantForAutofill="no" tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/pass1"
+        android:inputType="numberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="ENTER PASSWORD"
+        android:textColorHint="#0FF"
+        android:textStyle="bold"
+        android:textColor="#FF0"
+        android:importantForAutofill="no" tools:targetApi="o" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/butt1"
+        android:onClick="signass"/>
+</LinearLayout>

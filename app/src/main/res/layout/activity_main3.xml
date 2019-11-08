@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@drawable/back">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:id="@+id/imageButton1"
+            android:layout_width="327dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:onClick="first"
+            android:text="First Semester"
+            android:textSize="50dp"
+            android:background="#00BCD4"
+           />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton2"
+            android:layout_width="327dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:onClick="second"
+            android:text="Second Semester"
+            android:textSize="50dp"
+            android:background="#9C27B0"/>
+        <TextView
+            android:id="@+id/textVi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton3"
+            android:layout_width="327dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:onClick="third"
+            android:text="Third Semester"
+            android:textSize="50dp"
+            android:background="#00BCD4"/>
+        <TextView
+            android:id="@+id/textVie"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton4"
+            android:layout_width="327dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:onClick="fourth"
+            android:textSize="50dp"
+            android:text="Fourth Semester"
+            android:background="#8BC34A"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton5"
+            android:layout_width="327dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:onClick="fifth"
+            android:text="Fifth Semester"
+            android:textSize="40dp"
+            android:background="#FFE800"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+
+        <Button
+            android:id="@+id/imageButton6"
+            android:layout_width="327dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:onClick="sixth"
+            android:text="Sixth Semester"
+            android:textSize="50dp"
+            android:background="#F08D57"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton7"
+            android:layout_width="327dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:onClick="clan"
+            android:text="C LANGUAGE"
+            android:background="#6FBAF5"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton8"
+            android:layout_width="327dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:onClick="c_lan"
+            android:text="C++ LANGUAGE"
+            android:background="#6FBAF5"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton9"
+            android:layout_width="327dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:onClick="data"
+            android:text="DATA STRUCTURE"
+            android:background="#6FBAF5"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton10"
+            android:layout_width="327dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:onClick="gate"
+            android:text="GATE STUDY"
+            android:background="#6FBAF5"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton11"
+            android:layout_width="327dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:onClick="python"
+            android:text="PYTHON"
+            android:background="#6FBAF5"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton12"
+            android:layout_width="327dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:onClick="web"
+            android:text="WEB TECHNOLOGY"
+            android:background="#6FBAF5"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

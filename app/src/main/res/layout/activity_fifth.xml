@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@drawable/back">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:id="@+id/imageButton1"
+            android:layout_width="373dp"
+            android:layout_height="123dp"
+            android:layout_gravity="center"
+            android:onClick="fla"
+            android:text="F L A"
+            android:textSize="50dp"
+            android:background="#D81313"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton2"
+            android:layout_width="350dp"
+            android:layout_height="145dp"
+            android:layout_gravity="center"
+            android:onClick="hpca"
+            android:text="H P C A"
+            android:textSize="50dp"
+            android:background="#9C27B0"/>
+        <TextView
+            android:id="@+id/textVi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton3"
+            android:layout_width="330dp"
+            android:layout_height="154dp"
+            android:layout_gravity="center"
+            android:onClick="os"
+            android:text="O S "
+            android:textSize="50dp"
+            android:background="#00BCD4"/>
+        <TextView
+            android:id="@+id/textVie"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <Button
+            android:id="@+id/imageButton4"
+            android:layout_width="377dp"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:onClick="cn"
+            android:textSize="50dp"
+            android:text="Computer NETWORK"
+            android:background="#8BC34A"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+        <Button
+            android:id="@+id/imageButton5"
+            android:layout_width="377dp"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:onClick="se"
+            android:textSize="50dp"
+            android:text="Softwrae Engineering"
+            android:background="#8BC34A"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
